@@ -2,3 +2,9 @@
 
 
 ![image](https://github.com/terris91/check-pass-wifi/assets/95265895/a17312c7-774b-4aac-8cf5-d4216574febb)
+
+# Cách dùng
+```
+python checkpass.py
+```
+- Module tự cài.
