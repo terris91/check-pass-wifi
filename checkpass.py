@@ -120,7 +120,7 @@ def select_wifi_access_point(access_points):
     run(logo)
     print("\033[96m\033[1mCác wifi xung quanh quét được:")
     for i, ap in enumerate(access_points):
-        print("\033[93m\033[1m{}. SSID: {}, BSSID: {}".format(i+1, ap['SSID'], ap['BSSID']))
+        print("\033[93m\033[1m{}. HOSTNAME: {}, BSSID: {}".format(i+1, ap['SSID'], ap['BSSID']))
     selection = int(input("\033[94m\033[1mChọn một điểm truy cập (nhập số tương ứng):\033[93m\033[1m "))
     
     # Nếu chọn không đúng thì trả về None
@@ -238,7 +238,7 @@ if interface:
             else:
                 print("\033[91m\033[1mKhông thể kết nối với mật khẩu đã lưu. Thử các mật khẩu khác...")
         else:
-            print("\033[91m\033[1mKhông tìm thấy mật khẩu đã lưu cho wifi '{}'.".format(access_point['SSID']))
+            print("\033[91m\033[1mKhông tìm thấy mật khẩu đã lưu cho wifi '{}'.\nBấm Ctrl C để dừng chương trình.\n".format(access_point['SSID']))
             print("\033[93m\033[1mĐang thử các mật khẩu từ danh sách...")
             # Load file chứa password 
             passwords = load_passwords_from_file("wordlist.txt")
