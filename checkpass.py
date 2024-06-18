@@ -22,14 +22,8 @@ connected_wifi_passwords = {}
 # cho phép chọn interface
 # cho phép chọn wifi muốn dò password
 
-logo ="""
-  \033[1;31m██╗  ██╗ ██████╗  █████╗ ███╗   ██╗ ██████╗        
-  \033[1;36m██║  ██║██╔═══██╗██╔══██╗████╗  ██║██╔════╝       
-  \033[1;32m███████║██║   ██║███████║██╔██╗ ██║██║  ███╗         
-  \033[1;33m██╔══██║██║   ██║██╔══██║██║╚██╗██║██║   ██║      
-  \033[1;31m██║  ██║╚██████╔╝██║  ██║██║ ╚████║╚██████╔╝    
-  \033[1;35m╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝     
-                     \x1b[38;2;39;216;255mTool check pass wifi by Hoàng
+logo ="""     
+                     \x1b[38;2;39;216;255mTool check pass wifi by Terris
                      \x1b[38;2;39;216;255mVui lòng không brute force wifi đã kết nối
                      \x1b[38;2;39;216;255mNếu không tìm thấy wifi xung quanh, vui lòng bật phần Internet Access lên
 """
